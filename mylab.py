@@ -32,7 +32,7 @@ print(build_tree(filename))
 
 def get_noun_or_verb_group(node):
 
-    """"Функция принтит именные и глагольные группы"""
+    """"Функция принтит именные и глагольные группы, но еще у них есть список"""
 
     pattern = '\d+\.\s'
     pattern_re = re.sub(pattern, '', node[0])
